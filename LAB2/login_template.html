@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0;
+      background-color: white;
+    }
+    
+    .button {
+    border-radius: 15px;
+      background-color: lightblue;
+      border: none;
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      padding: 20px 20px;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+		}
+        
+                .vertical-center {
+  transform: translateY(50%);
+}
+
+.horizontal-center {
+  transform: translateX(47%);
+}
+    
+    h1{
+    font-size: 15px;
+    margin:10px;
+    }
+    
+    
+    h4{
+    	font-size: 30px;
+        text-align: center;
+    }
+    
+    header {
+      background-color: lightblue;
+    }
+    
+    .topnav:after {
+      clear: both;
+      display: block;
+      content: "";
+    }
+    
+    .topnav a {
+      float: left;
+      color: white;
+      text-decoration: none;
+      padding: 10px 10px;
+    }
+    
+    .topnav a:hover {
+      background-color: black;
+    }
+    
+    #topnav-right {
+      float: right;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="topnav">
+      <a href="file:///C:/Users/gonca/Desktop/UNI/Interfaces/LAB2/index_template.html">
+        <h2>Home</h2>
+      </a>
+      <div id="topnav-right">
+        <a href="file:///C:/Users/gonca/Desktop/UNI/Interfaces/LAB2/login_template.html">
+          <h2>Log In</h2>
+        </a>
+        <a href="file:///C:/Users/gonca/Desktop/UNI/Interfaces/LAB2/Register_template.html">
+          <h2>Register</h2>
+        </a>
+      </div>
+    </div>
+    
+  </header>
+  <h4>Login</h4>
+  <h1>Email</h1>
+  <input type="email" size=120 id="email" name="email">
+  <h1>Password</h1>
+  <input type="password" size=120 id="pwd" name="pwd">
+  
+  <div class="horizontal-center">
+  	<div class="vertical-center">
+  		<a href="#" class="button">GO</a>
+  	</div>	
+  </div>
+
+</body>
+
+</html>
